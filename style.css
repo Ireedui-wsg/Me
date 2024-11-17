@@ -1,0 +1,174 @@
+.menu i {
+    font-size: 50px;
+    color: #000;
+	background-color:rgba(255, 255, 255, 0.1);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.tab{
+	width:700px;
+	height:100vh;
+	border:1px solid #e1e1e1;
+	position:fixed;
+	top:0;
+	background-image:url(https://pbs.twimg.com/media/GMphOuVa4AAX7DW.jpg);
+	background-size:cover;
+	left:-700px;
+	transition:0.5s;
+}
+.tab ul{
+	list-style-type:none;
+}
+.tab ul li{
+	margin-bottom:15px;
+}
+.tab ul li a{
+	color:#000;
+	text-decoration:none;
+	font-size:20px;
+}
+.home, .about,.skills, .contact{
+	height:100vh;
+	width:100%;
+}
+.home a{
+	text-decoration:none;
+}
+.home{
+    background-image: url(https://cdn.pixabay.com/photo/2023/10/23/03/12/space-8335255_960_720.jpg);
+	background-size: cover;
+}
+.home h1{
+	text-align: center;
+    color: #fff;
+	margin-bottom:50%;
+}
+.about{
+	background-color:black;
+	color:#fff;
+	left:10px;
+}
+.me{
+    color:#fff;
+	text-align:center;
+}
+.about img{
+	margin-left:35%;
+}
+.about h1{
+	text-align: center;
+	color:white;
+	text-decoration:none;
+}
+.E .h2{
+	color:white;
+	text-decoration:none;
+}
+.E .ME1{
+	text-align:center;
+	color:white;
+	text-decoration:none;
+}
+.E .ME1{
+	text-align:center;
+	color:white;
+	text-decoration:none;
+}
+.E .ME p{
+	text-align:center;
+	color:white;
+	text-decoration:none;
+}
+.E .ME a{
+	text-align:center;
+	color:white;
+	text-decoration:none;
+}
+.E{
+	color:white;
+	text-decoration:none;
+}
+.skills{
+    background-image: url("https://cache.desktopnexus.com/thumbseg/144/144368-bigthumbnail.jpg");
+    background-size: cover;
+}
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.skill {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+    min-width: 400px; 
+}
+
+.progress-bar {
+    background-color: #0064fb;
+    height: 20px;
+    line-height: 20px;
+    color: white;
+    min-width: 300px;
+    transition: width 0.3s ease;
+}
+
+.contact{
+	background-image:url(https://c8.alamy.com/comp/2M37THA/creative-concept-thank-you-for-your-attention-text-on-notebook-on-wooden-background-2M37THA.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.project{
+	background-image:url(https://wallpapers.com/images/hd/dark-background-mhgr53957t0l7jns.jpg);
+	background-size:cover;
+}
+.project 
+*{
+	margin:0;
+	padding:0;
+}
+.menu{
+	position:fixed;
+	top:0;
+}
+html{
+	scroll-behavior:smooth;
+}
+.home .img{
+	padding:100%;
+}
+.fixed .header{
+	background-color:grey;
+}
+.project .info img{
+	width:100%;
+	height:350px;
+	object-fit:cover;
+}
+.project .info a{
+	color:#000;
+	text-decoration:none;
+}
+.skills{
+	background-color:blue;
+}
+.contact .end{
+	color:black;
+}
+.contact .icon{
+	color:black;
+}
+.contact .container{
+	background-color:white;
+	padding:10px 0px;
+}
